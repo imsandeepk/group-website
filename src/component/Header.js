@@ -18,6 +18,9 @@ export default function Header() {
           <a className="nav-link mx-4 text-white" href="https://scholar.google.co.uk/citations?user=ZprWaMkAAAAJ&hl=en">
             Publications
           </a>
+          <Link className="nav-link mx-4 text-white" to="/CV">
+            CV
+          </Link>
           <Link className="nav-link mx-4 text-white" to="/team">
             Group
           </Link>

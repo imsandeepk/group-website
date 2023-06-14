@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="vh-100 py-5" style={{ backgroundColor: "#e3f2fd", display: "flex", flexDirection: "column" }}>
+    <div className="vh-100 py-5" style={{ backgroundColor: "#ffffff", display: "flex", flexDirection: "column" }}>
       <div className="container" style={{ display: "flex" }}>
         <div style={{ flex: 1 }}>
           <h1 className="text-decoration-underline " style={{ color: '#3cb043' }}>Contact Us</h1>

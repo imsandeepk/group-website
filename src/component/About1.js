@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About1() {
   return (
-    <div style={{ backgroundColor: '#e3f2fd', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div style={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
         <div style={{ border: '2px solid #823a46', borderRadius: '50%', padding: '5px' }}>
           <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%', alignSelf: "center" }} />
@@ -16,13 +16,13 @@ export default function About1() {
         </div>
       </div>
       <div className='container'>
-      <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Education:</h4>
+      <h4 className='fw-semibold text-decoration-underline' style={{ color: '#808080' }}>Education:</h4>
           <ul className=''>
             <li className='fw-medium'>BEng in Materials Science and Engineering, Beihang University, 2009</li>
             <li className="fw-medium">MEng in Materials Science and Engineering, Queen Mary University of London, 2009</li>
             <li className="fw-medium">PhD in Molecular Modelling, University of Edinburgh, 2014</li>
           </ul>
-          <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Research:</h4>
+          <h4 className='fw-semibold text-decoration-underline' style={{ color: '#808080' }}>Research:</h4>
         <ul>
           <li className="fw-medium">Computational discovery and design of functional molecules and materials at the atomic scale</li>
           <li className="fw-medium">Automated and autonomous approaches to large-scale, high-throughput computational screening</li>
@@ -44,7 +44,7 @@ export default function About1() {
         </ul>
       </div>
       <div className='container'>
-        <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Biography:</h4>
+        <h4 className='fw-semibold text-decoration-underline' style={{ color: '#808080' }}>Biography:</h4>
         <p className="fw-medium">
         Linjiang was awarded his PhD in molecular modelling from the University of Edinburgh in 2014. His thesis was advised by Dr Tina Düren and concerned improving the modelling of gas adsorption in metal–organic frameworks (MOFs) with coordinatively unsaturated metal sites and flexible MOFs.
         </p>

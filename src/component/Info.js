@@ -2,7 +2,7 @@ import React from 'react'
 
 function Info() {
   return (
-    <div className='py-5' style={{ backgroundColor: '#e3f2fd' }}>
+    <div className='py-5' style={{ backgroundColor: '#ffffff' }}>
         <div className='container'>
         <h2 className='text-center fw-bold text-decoration-underline' style={{ color: '#3cb043' }}>Welcome to Chen's Group</h2>
             <p className='fw-medium'>

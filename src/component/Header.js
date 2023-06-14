@@ -1,21 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import {Particles} from 'react-tsparticles';
+import { NavLink } from 'react-router-dom';
+import { Particles } from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { useCallback } from 'react';
-
 export default function Header() {
-  const particlesInit = useCallback(async engine => {
+  const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
-}, []);
+  }, []);
 
-const particlesLoaded = useCallback(async container => {
+  const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
-}, []);
+  }, []);
+
   return (
     <nav
       className="navbar navbar-expand-lg"
@@ -56,7 +56,7 @@ const particlesLoaded = useCallback(async container => {
             },
             particles: {
               color: {
-                value: '#e3f2fd',
+                value: '#000000',
               },
               links: {
                 color: '#ffffff',
@@ -105,24 +105,27 @@ const particlesLoaded = useCallback(async container => {
           PROFESSOR LINJIANG CHEN
         </h1>
         <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800' }}>
-          <Link className="nav-link mx-3 text-white" to="/" >
+          <NavLink className="nav-link mx-3 text-white" exact to="/" activeClassName="active-link">
             Home
-          </Link>
-          <Link className="nav-link mx-4 text-white" to="/about">
+          </NavLink>
+          <NavLink className="nav-link mx-4 text-white" to="/about" activeClassName="active-link">
             Linjiang Chen
-          </Link>
-          <a className="nav-link mx-4 text-white" href="https://scholar.google.co.uk/citations?user=ZprWaMkAAAAJ&hl=en">
+          </NavLink>
+          <a
+            className="nav-link mx-4 text-white"
+            href="https://scholar.google.co.uk/citations?user=ZprWaMkAAAAJ&hl=en"
+          >
             Publications
           </a>
-          <Link className="nav-link mx-4 text-white" to="/CV">
+          <NavLink className="nav-link mx-4 text-white" to="/CV" activeClassName="active-link">
             CV
-          </Link>
-          <Link className="nav-link mx-4 text-white" to="/team">
+          </NavLink>
+          <NavLink className="nav-link mx-4 text-white" to="/team" activeClassName="active-link">
             Group
-          </Link>
-          <Link className="nav-link mx-4 text-white" to="/contact">
+          </NavLink>
+          <NavLink className="nav-link mx-4 text-white" to="/contact" activeClassName="active-link">
             Contact US
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>

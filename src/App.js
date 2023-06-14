@@ -19,7 +19,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={
-            <div style={{ backgroundColor: '#e3f2fd' }}>
+            <div style={{ backgroundColor: '#ffffff' }}>
               <Corousel />
               <Info />
             </div>

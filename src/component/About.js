@@ -4,10 +4,12 @@ function About() {
   return (
     <div style={{ backgroundColor: '#e3f2fd', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <div className='py-5'>
-        <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
+        <div style={{ border: '2px solid #823a46', borderRadius: '50%', padding: '5px' }}>
+          <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%',alignSelf:"center" }} />
+        </div>
       </div>
       <div className='container'>
-        <h2 className='text-center fw-bold' style={{ color: '#823a46' }}>PROF. LINJIANG CHEN</h2>
+        <h2 className='text-center fw-bold text-decoration-underline' style={{ color: '#3cb043' }}>Prof. Linjiang Chen</h2>
         <p className='fw-medium'>
           Linjiang is hugely passionate about the interface between Chemistry and Computer Science and has a strong devotion to the mission of fusing chemical knowledge with state-of-the-art computer science to develop and deploy best-in-class solutions to help address global environmental sustainability challenges, such as changing climate and plastic re/up-cycling. With a joint appointment between the Schools of Chemistry and Computer Science at Birmingham, Linjiang is developing the various research strands outlined in the Research section, through building strong collaborations with colleagues in both Schools and, more broadly, researchers in the chemical sciences and computational sciences communities. Linjiang firmly believes that the interfaces between different scientific disciplines often nucleate the most exciting and impactful research and that the development of technical capabilities for boundary-crossing research can often catalyze new thinking, new hypotheses, and new collaborations.
         </p>
@@ -15,7 +17,7 @@ function About() {
         <p className="fw-medium">Linjiang is always keen to interact and collaborate with researchers who are passionate about digital chemistry, computational materials design, and applied AI for scientific discovery.</p>
       </div>
       <div className='container'>
-        <h4 className='fw-semibold' style={{ color: '#823a46' }}>Biography:</h4>
+        <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Biography:</h4>
         <p className="fw-medium">
         Linjiang was awarded his PhD in molecular modelling from the University of Edinburgh in 2014. His thesis was advised by Dr Tina Düren and concerned improving the modelling of gas adsorption in metal–organic frameworks (MOFs) with coordinatively unsaturated metal sites and flexible MOFs.
         </p>
@@ -24,7 +26,7 @@ function About() {
         
       </div>
       <div className='container'>
-        <h4 className='fw-semibold' style={{ color: '#823a46' }}>Education:</h4>
+        <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Education:</h4>
         <ul >
           <li className='fw-medium'>BEng in Materials Science and Engineering, Beihang University, 2009</li>
           <li className="fw-medium">MEng in Materials Science and Engineering, Queen Mary University of London, 2009</li>
@@ -32,7 +34,7 @@ function About() {
         </ul>
       </div>
       <div className='container'>
-        <h4 className='fw-semibold' style={{ color: '#823a46' }}>Research:</h4>
+        <h4 className='fw-semibold text-decoration-underline' style={{ color: '#823a46' }}>Research:</h4>
         <ul>
           <li className="fw-medium">Computational discovery and design of functional molecules and materials at the atomic scale</li>
           <li className="fw-medium">Automated and autonomous approaches to large-scale, high-throughput computational screening</li>

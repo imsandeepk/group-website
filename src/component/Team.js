@@ -4,9 +4,9 @@ export default function Team() {
   return (
     <div style={{ backgroundColor: "#e3f2fd"}}>
         <div className='container'>
-        <h1 className='text-center'>Group Members</h1>
+        <h1 className='text-center text-decoration-underline' style={{color: '#3cb043'}}>Group Members</h1>
       <div className='row'>
-      <h3 className='text-center py-3 text-decoration-underline'>Postdoc Researchers</h3>
+      <h3 className='text-center py-3 '>Postdoc Researchers</h3>
         <div className='col-md-4'>
           <div className='card' style={{ width: '12rem', }}>
             <img src='cat.png' className='card-img-top' alt='...' />

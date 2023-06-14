@@ -8,21 +8,23 @@ import Team from "./component/Team";
 import Info from "./component/Info";
 import About from './component/About';
 import CV from './component/CV';
+import About1 from './component/About1';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+   
+      <BrowserRouter>  
         <Header />
 
         <Routes>
           <Route path="/" element={
-            <>
+            <div style={{ backgroundColor: '#e3f2fd' }}>
               <Corousel />
               <Info />
-            </>
+            </div>
           } />
-          <Route path="/About" element={<About/>
+          <Route path="/About" element={<About1/>
           } />
           <Route path="/team" element={<Team />} />
           <Route path="/CV" element={<CV />} />

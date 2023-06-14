@@ -56,7 +56,7 @@ export default function Header() {
             },
             particles: {
               color: {
-                value: '#000000',
+                value: '#e3f2fd',
               },
               links: {
                 color: '#ffffff',

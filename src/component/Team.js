@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Team() {
   return (
-    <div style={{ backgroundColor: "#e3f2fd"}}>
+    <div style={{ backgroundColor: "#fffff"}}>
         <div className='container'>
-        <h1 className='text-center text-decoration-underline' style={{color: '#ffffff'}}>Group Members</h1>
+        <h1 className='text-center text-decoration-underline' style={{color: '#3cb043'}}>Group Members</h1>
       <div className='row'>
       <h3 className='text-center py-3 '>Postdoc Researchers</h3>
         <div className='col-md-4'>

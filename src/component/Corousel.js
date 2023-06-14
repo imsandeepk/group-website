@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Carousel() {
   return (
-    <div id="carouselExampleAutoplaying" className="carousel carousel-dark slide vh-auto mb-0" data-bs-ride="carousel" data-bs-interval="10000" style={{ backgroundColor: '#ffffff' }}>
+    <div id="carouselExampleAutoplaying" className="carousel carousel-dark slide vh-auto mb-0" data-bs-ride="carousel" data-bs-interval="5000" style={{ backgroundColor: '#ffffff' }}>
       <div className="carousel-inner py-3">
         <div className="carousel-item active">
           <img src="chem.avif" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
@@ -32,7 +32,7 @@ export default function Carousel() {
         <span className="carousel-control-next-icon color-black" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-      <h6 className='text-center pb-3'>Glimpses Of Group</h6>
+      <h6 className='text-center pb-1'>Glimpses Of Group</h6>
     </div>
   );
 }

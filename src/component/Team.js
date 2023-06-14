@@ -12,9 +12,10 @@ export default function Team() {
             <img src='cat.png' className='card-img-top' alt='...' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Name</h5>
+              <h6 className='card-title text-center'>Designation</h6>
               <div className='text-center'>
-                  <a href='#' className='btn btn-primary'>
-                    Website/Gmail
+                  <a href='#' className='btn btn-dark'>
+                    Connect
                   </a>
                 </div>
             </div>

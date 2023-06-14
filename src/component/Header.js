@@ -62,7 +62,7 @@ export default function Header() {
                 color: '#ffffff',
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
+                opacity: 0.1,
                 width: 1,
               },
               collisions: {
@@ -86,7 +86,7 @@ export default function Header() {
                 value: 80,
               },
               opacity: {
-                value: 0.5,
+                value: 0.1,
               },
               shape: {
                 type: 'square',
@@ -99,9 +99,9 @@ export default function Header() {
           }}
         />
       </div>
-
+      
       <div className="container-fluid h-100 d-flex flex-column justify-content-end">
-        <h1 className="text-center" style={{ color: '#FFD800' }}>
+      <h1 className="text-center fw-bolder fs-1" style={{ color: '#ffffff' }}>
           PROFESSOR LINJIANG CHEN
         </h1>
         <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800' }}>

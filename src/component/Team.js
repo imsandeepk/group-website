@@ -8,7 +8,7 @@ export default function Team() {
       <div className='row'>
       <h3 className='text-center py-3 '>Postdoc Researchers</h3>
         <div className='col-md-4'>
-          <div className='card' style={{ width: '12rem', }}>
+          <div className='card' style={{ width: '12rem', backgroundColor:"#808080" }}>
             <img src='cat.png' className='card-img-top' alt='...' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Name</h5>

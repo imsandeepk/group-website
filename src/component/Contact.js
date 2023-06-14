@@ -4,8 +4,9 @@ export default function Contact() {
   return (
     <div className="vh-100 py-5" style={{ backgroundColor: "#ffffff", display: "flex", flexDirection: "column" }}>
       <div className="container" style={{ display: "flex" }}>
+        
         <div style={{ flex: 1 }}>
-          <h1 className="text-decoration-underline " style={{ color: '#3cb043' }}>Contact Us</h1>
+          <h1 className="text-decoration-underline" style={{ color: '#3cb043', textDecorationOffset: '0.3em' }}>Contact Us</h1>
           <h4 className="fw-bold">Prof. Linjiang Chen</h4>
           <h5>School of Chemistry</h5>
           <h5>University of Birmingham, Edgbaston</h5>

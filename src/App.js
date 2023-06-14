@@ -7,6 +7,7 @@ import Header from "./component/Header";
 import Team from "./component/Team";
 import Info from "./component/Info";
 import About from './component/About';
+import CV from './component/CV';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/About" element={<About/>
           } />
           <Route path="/team" element={<Team />} />
+          <Route path="/CV" element={<CV />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

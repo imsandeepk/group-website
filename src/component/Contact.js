@@ -11,7 +11,9 @@ export default function Contact() {
           <h5>University of Birmingham, Edgbaston</h5>
           <h5>Birmingham B15 2TT</h5>
           <h5>United Kingdom</h5>
-          <h5 className="fw-semibold mx-1">Email: <a href="mailto:l.j.chen@bham.ac.uk">l.j.chen@bham.ac.uk</a></h5>
+          <h5 className="fw-semibold mx-1">
+            Email: <a href="mailto:	l.j.chen@bham.ac.uk">l.j.chen@bham.ac.uk</a>
+          </h5>
         </div>
         <div style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>
           <img src="/maps.jpeg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />

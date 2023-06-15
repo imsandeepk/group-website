@@ -22,7 +22,10 @@ export default function Header() {
       className="navbar navbar-expand-lg"
       style={{
         height: '30vh',
-        backgroundImage: "url('/back.png')",
+        backgroundImage: "url('/banner.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+
         
       }}
     >
@@ -102,7 +105,7 @@ export default function Header() {
       </div>
       
       <div className="container-fluid h-100 d-flex flex-column justify-content-end">
-      <h1 className="text-center fw-bolder fs-1" style={{ color: '#FFA500', fontFamily: "Pacifico",textShadow: '2px 2px 4px #000000' }}>
+      <h1 className="text-center fw-bolder fs-1" style={{ color: '#FFF700', fontFamily: "Pacifico",textShadow: '2px 2px 4px #000000' }}>
           Digital Chemstry Group @Birmingham
         </h1>
         <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800',fontFamily:"Lobster" }}>

@@ -4,11 +4,11 @@ export default function Team() {
   return (
     <div style={{ backgroundColor: "#fffff"}}>
         <div className='container'>
-        <h1 className='text-center text-decoration-underline' style={{color: '#3cb043'}}>Group Members</h1>
+        <h1 className='text-center text-decoration-underline' style={{color: '#3cb043',fontFamily:"Pacifico"}}>Group Members</h1>
       <div className='row'>
       <h3 className='text-center py-3 '>Postdoc Researchers</h3>
         <div className='col-md-4'>
-          <div className='card' style={{ width: '12rem', backgroundColor:"#808080" }}>
+          <div className='card' style={{ width: '12rem', backgroundColor:"rgb(80, 107, 142,0.9)" }}>
             <img src='cat.png' className='card-img-top' alt='...' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Name</h5>

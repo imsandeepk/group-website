@@ -3,13 +3,13 @@ import React from 'react';
 export default function About1() {
   return (
     <div className='container' style={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div className=' px-5 my-3 rounded' style={{backgroundColor: "#808080", backfaceVisibility:"20%" }}>
+        <div className=' px-5 my-3 rounded' style={{backgroundColor: "rgb(80, 107, 142,0.9)",  }}>
       <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
         <div style={{ border: '2px solid #823a46', borderRadius: '50%', padding: '5px' }}>
           <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%', alignSelf: "center" }} />
         </div>
         <div className='container px-5'>
-          <h3 className='fw-bold text-decoration-underline px-5' style={{ color: '#3cb043', textDecorationOffset: '0.3em' }}>Linjiang Chen</h3>
+          <h3 className='fw-bolder fs-1  px-5' style={{ color: '#4d004d', textDecorationOffset: '0.3em',fontFamily:"Cookie" }}>Linjiang Chen</h3>
           <h5 className='px-5 fw-semibold'>Assistant Professor</h5>
           <h6 className='px-5 fw-semibold'>School of Chemistry, University of Birmingham</h6>
           <h6 className='px-5 fw-semibold'>Tel: +44 (0) 121 414 3946</h6>

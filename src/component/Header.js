@@ -12,6 +12,7 @@ export default function Header() {
     await loadFull(engine);
   }, []);
 
+
   const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
   }, []);
@@ -56,13 +57,13 @@ export default function Header() {
             },
             particles: {
               color: {
-                value: '#e3f2fd',
+                value: '#800000',
               },
               links: {
-                color: '#ffffff',
+                color: '#FFFF00',
                 distance: 150,
                 enable: true,
-                opacity: 0.1,
+                opacity: 0.9,
                 width: 1,
               },
               collisions: {
@@ -81,15 +82,15 @@ export default function Header() {
               number: {
                 density: {
                   enable: true,
-                  area: 800,
+                  area: 1000,
                 },
-                value: 80,
+                value: 100,
               },
               opacity: {
-                value: 0.1,
+                value: 0.9,
               },
               shape: {
-                type: 'square',
+                type: 'circle',
               },
               size: {
                 value: { min: 1, max: 5 },
@@ -101,10 +102,10 @@ export default function Header() {
       </div>
       
       <div className="container-fluid h-100 d-flex flex-column justify-content-end">
-      <h1 className="text-center fw-bolder fs-1" style={{ color: '#ffffff' }}>
-          PROFESSOR LINJIANG CHEN
+      <h1 className="text-center fw-bolder fs-1" style={{ color: '#FFA500', fontFamily: "Pacifico",textShadow: '2px 2px 4px #000000' }}>
+          Digital Chemstry Group @Birmingham
         </h1>
-        <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800' }}>
+        <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800',fontFamily:"Lobster" }}>
           <NavLink className="nav-link mx-3 text-white" exact to="/" activeClassName="active-link">
             Home
           </NavLink>
@@ -117,14 +118,11 @@ export default function Header() {
           >
             Publications
           </a>
-          <NavLink className="nav-link mx-4 text-white" to="/CV" activeClassName="active-link">
-            CV
-          </NavLink>
           <NavLink className="nav-link mx-4 text-white" to="/team" activeClassName="active-link">
             Group
           </NavLink>
           <NavLink className="nav-link mx-4 text-white" to="/contact" activeClassName="active-link">
-            Contact US
+            Contact Us
           </NavLink>
         </div>
       </div>

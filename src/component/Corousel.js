@@ -5,13 +5,13 @@ export default function Carousel() {
       <div id="carouselExampleAutoplaying" className="carousel carousel-dark slide vh-auto mb-0 rounded" data-bs-ride="carousel" data-bs-interval="5000" style={{ backgroundColor: '#ffffff' }}>
         <div className="carousel-inner py-3">
           <div className="carousel-item active">
-            <img src="chem.avif" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
+            <img src="./Display/5.jpg" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
           </div>
           <div className="carousel-item">
-            <img src="chem.avif" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
+            <img src="./Display/2.jpeg" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
           </div>
           <div className="carousel-item">
-            <img src="chem.avif" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
+            <img src="./Display/4.jpg" className="d-block mx-auto" alt="..." style={{ width: '30vw' }} />
           </div>
         </div>
         <button

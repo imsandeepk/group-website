@@ -17,15 +17,18 @@ export default function Footer() {
     marginLeft: '10px',
   };
 
+  const imageSize = {
+    width: '60px',
+    height: '60px',
+  };
+
   return (
     <footer className="footer">
       <div className="container text-center">
         <div style={lineStyle}>
           <p className="mb-0">© 2023 LINJIANG CHEN.</p>
-          <div>
-            <AiFillLinkedin style={iconStyle} color="#3cb043" />
-            <AiFillGithub style={iconStyle} color="#3cb043" />
-            <AiFillTwitterSquare style={iconStyle} color="#3cb043" />
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img src='favicon.ico' alt='Logo' style={imageSize} />
           </div>
         </div>
       </div>

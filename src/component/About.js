@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function About() {
   return (
     <div style={{ backgroundColor: '#e3f2fd', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

@@ -1,28 +1,21 @@
-import React from "react";
+import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="vh-100 py-5" style={{ backgroundColor: "#ffffff", display: "flex", flexDirection: "column" }}>
-      <div className="container" style={{ display: "flex" }}>
-        
-        <div style={{ flex: 1 }}>
-          <h1 className="text-decoration-underline" style={{ color: '#3cb043', textDecorationOffset: '0.3em', fontFamily:"Pacifico" }}>Contact Us</h1>
-          <h4 className="fw-bold">Prof. Linjiang Chen</h4>
-          <h5>School of Chemistry</h5>
-          <h5>University of Birmingham, Edgbaston</h5>
-          <h5>Birmingham B15 2TT</h5>
-          <h5>United Kingdom</h5>
-          <h5 className="fw-semibold mx-1">
-            Email: <a className="text-black" href="mailto:l.j.chen@bham.ac.uk">l.j.chen@bham.ac.uk</a>
-          </h5>
-        </div>
-        <div style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7846.259622828046!2d-1.9413429286374602!3d52.447127752218314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bdca311bf965%3A0xa3028ea5e5ed3b98!2sSchool%20of%20Chemistry!5e0!3m2!1sen!2suk!4v1686753892378!5m2!1sen!2suk" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-      <div className="container">
-        {/* Rest of the content */}
-      </div>
+    <div className=' my-5 container rounded' style={{backgroundColor: "rgb(80, 107, 142,0.9)",  }}>
+      <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
+    <div className='container py-5'>
+        <div class="mb-3" >
+  <label for="exampleFormControlInput1" class="form-label" >Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" ></textarea>
+  <button type="button" class="btn btn-primary my-3 btn-lg">Send</button>
+  </div>
+  </div>
+</div>
     </div>
-  );
+  )
 }

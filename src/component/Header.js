@@ -21,9 +21,9 @@ export default function Header() {
     <nav
       className="navbar navbar-expand-lg"
       style={{
-        height: '35vh',
+        height: '30vh',
         backgroundImage: "url('/back.png')",
-        backgroundAttachment: 'fixed',
+        
       }}
     >
       <div style={{ position: 'relative' }}>
@@ -108,9 +108,6 @@ export default function Header() {
         <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800',fontFamily:"Lobster" }}>
           <NavLink className="nav-link mx-3 text-white" exact to="/" activeClassName="active-link">
             Home
-          </NavLink>
-          <NavLink className="nav-link mx-4 text-white" to="/about" activeClassName="active-link">
-            Linjiang Chen
           </NavLink>
           <a
             className="nav-link mx-4 text-white"

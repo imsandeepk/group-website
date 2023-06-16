@@ -6,7 +6,7 @@ export default function About1() {
         <div className=' px-5 my-3 rounded' style={{backgroundColor: "rgb(80, 107, 142,0.9)",  }}>
       <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
         <div style={{ border: '2px solid #823a46', borderRadius: '50%', padding: '5px' }}>
-          <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%', alignSelf: "center" }} />
+          <img src="../Team/Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%', alignSelf: "center" }} />
         </div>
         <div className='container px-5'>
           <h3 className='fw-bolder fs-1  px-5' style={{ color: '#4d004d', textDecorationOffset: '0.3em',fontFamily:"Cookie" }}>Linjiang Chen</h3>

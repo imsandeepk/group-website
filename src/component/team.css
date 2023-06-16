@@ -1,8 +1,0 @@
-.hovered {
-    transition: transform 0.3s ease;
-  }
-  
-  .hovered:hover {
-    transform: scale(1.1);
-  }
-  

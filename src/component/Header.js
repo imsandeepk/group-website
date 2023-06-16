@@ -106,7 +106,7 @@ export default function Header() {
       
       <div className="container-fluid h-100 d-flex flex-column justify-content-end">
       <h1 className="text-center fw-bolder fs-1" style={{ color: '#FFF700', fontFamily: "Pacifico",textShadow: '2px 2px 4px #000000' }}>
-          Digital Chemstry Group @Birmingham
+          Digital Chemistry Group @Birmingham
         </h1>
         <div className="navbar-nav justify-content-center text-white" style={{ color: '#FFD800',fontFamily:"Lobster" }}>
           <NavLink className="nav-link mx-3 text-white" exact to="/" activeClassName="active-link">

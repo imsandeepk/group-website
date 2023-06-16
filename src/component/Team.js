@@ -14,7 +14,7 @@ export default function Team() {
           <img src="Prof.jpeg" alt="Profile" style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%', alignSelf: "center" }} />
         </div>
         <div className='container px-5'>
-          <h3 className='fw-bolder fs-1  px-5' style={{ color: '#4d004d', textDecorationOffset: '0.3em',fontFamily:"Cookie" }}>Linjiang Chen</h3>
+          <h3 className='fw-bolder fs-1  px-5' style={{ color: '#4d004d', textDecorationOffset: '0.3em',fontFamily:"Cookie" }}>Dr. Linjiang Chen</h3>
           <h5 className='px-5 fw-semibold'>Assistant Professor</h5>
           <h6 className='px-5 fw-semibold'>School of Chemistry, University of Birmingham</h6>
           <h6 className='px-5 fw-semibold'>Tel: +44 (0) 121 414 3946</h6>

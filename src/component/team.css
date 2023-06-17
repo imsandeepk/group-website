@@ -5,4 +5,7 @@
   .hovered:hover {
     transform: scale(1.1);
   }
-  
+
+  .team-image {
+    height: 200px; /* Set the desired height here */
+  }

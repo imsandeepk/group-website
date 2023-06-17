@@ -11,46 +11,59 @@ export default function Team() {
         </h2>
 
         <div className="row row-gap-5">
+
+
           <div className="col-md-4">
             <div className='hovered'>
-            <Link to="/about" style={{ textDecoration: 'none' }}>
-              <div className="container text-underline-opacity-0 px-5">
-                <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
-                  <img src="../Team/Prof.jpeg" className="card-img-top" alt="..." />
-                  <div className="card-body text-white">
-                    <h5 className="card-title text-center">Dr. Linjiang Chen</h5>
-                    <h6 className="card-title text-center">Professor</h6>
+              <Link to="/about" style={{ textDecoration: 'none' }}>
+                <div className="container text-underline-opacity-0">
+                  <div className="card h-100" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+                    <img src="../Team/Prof.jpeg" className="card-img-top team-image" alt="..." />
+                    <div className="card-body text-white">
+                      <h5 className="card-title text-center">Dr. Linjiang Chen</h5>
+                      <h6 className="card-title text-center">Professor</h6>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
             </div>
           </div>
 
-
           <div className="col-md-4">
-            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
-              <img src="../Team/Harry_Tyrrell.jpg" className="card-img-top" alt="..." />
+            <div className="card h-100" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Harry_Tyrrell.jpg" className="card-img-top team-image" alt="..." />
               <div className="card-body text-white">
                 <h5 className="card-title text-center">Harry Tyrrell</h5>
-                <h6 className="card-title text-center">PHD Student </h6>
+                <h6 className="card-title text-center">PHD Student</h6>
               </div>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
-              <img src="../Team/Muyu_Lu_Visiting-Student.jpg" className="card-img-top" alt="..." />
+            <div className="card h-100" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Muyu_Lu_Visiting-Student.jpg" className="card-img-top team-image" alt="..." />
               <div className="card-body text-white">
                 <h5 className="card-title text-center">Muyu Lu</h5>
-                <h6 className="card-title text-center"> Visiting Student </h6>
+                <h6 className="card-title text-center">Visiting Student</h6>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div className="col-md-4 px-4">
+            <div className="card h-100 " style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Self.jpeg" className="card-img-top team-image" alt="..." />
+              <div className="card-body text-white">
+                <h5 className="card-title text-center">Sandeep</h5>
+                <h6 className="card-title text-center">Research Intern</h6>
               </div>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
-              <img src="../Team/Ted_Pitman_MSc-Student.jpg" className="card-img-top" alt="..." />
+            <div className="card h-100" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Ted_Pitman_MSc-Student.jpg" className="card-img-top team-image" alt="..." />
               <div className="card-body text-white">
                 <h5 className="card-title text-center">Ted Pitman</h5>
                 <h6 className="card-title text-center">Msc Student</h6>
@@ -59,11 +72,11 @@ export default function Team() {
           </div>
 
           <div className="col-md-4">
-            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
-              <img src="../Team/Self.jpeg" className="card-img-top" alt="..." />
+            <div className="card h-100" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Ted_Pitman_MSc-Student.jpg" className="card-img-top team-image" alt="..." />
               <div className="card-body text-white">
-                <h5 className="card-title text-center">Sandeep</h5>
-                <h6 className="card-title text-center">Research Intern</h6>
+                <h5 className="card-title text-center">Ted Pitman</h5>
+                <h6 className="card-title text-center">Msc Student</h6>
               </div>
             </div>
           </div>

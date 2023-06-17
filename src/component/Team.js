@@ -27,6 +27,37 @@ export default function Team() {
             </div>
           </div>
 
+
+          <div className="col-md-4">
+            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Harry_Tyrrell.jpg" className="card-img-top" alt="..." />
+              <div className="card-body text-white">
+                <h5 className="card-title text-center">Harry Tyrrell</h5>
+                <h6 className="card-title text-center">PHD Student </h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Muyu_Lu_Visiting-Student.jpg" className="card-img-top" alt="..." />
+              <div className="card-body text-white">
+                <h5 className="card-title text-center">Muyu Lu</h5>
+                <h6 className="card-title text-center"> Visiting Student </h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
+              <img src="../Team/Ted_Pitman_MSc-Student.jpg" className="card-img-top" alt="..." />
+              <div className="card-body text-white">
+                <h5 className="card-title text-center">Ted Pitman</h5>
+                <h6 className="card-title text-center">Msc Student</h6>
+              </div>
+            </div>
+          </div>
+
           <div className="col-md-4">
             <div className="card" style={{ width: '13rem', backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
               <img src="../Team/Self.jpeg" className="card-img-top" alt="..." />
@@ -36,6 +67,8 @@ export default function Team() {
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>

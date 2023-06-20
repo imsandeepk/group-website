@@ -1,31 +1,7 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
 
 export default function Contact() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
-    // Get the form values
-    const email = e.target.email.value;
-    const name = e.target.name.value;
-    const message = e.target.message.value;
-
-    // Send the email
-    emailjs.send('your_service_id', 'your_template_id', {
-      to_email: email,
-      from_name: name,
-      message: message
-    })
-      .then((response) => {
-        console.log('Email sent:', response);
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-      });
-
-    // Clear the form
-    e.target.reset();
-  };
 
   return (
     <div className='my-5 container rounded' style={{ backgroundColor: 'rgb(80, 107, 142,0.9)' }}>

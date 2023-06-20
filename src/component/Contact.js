@@ -1,21 +1,61 @@
-import React from 'react'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Get the form values
+    const email = e.target.email.value;
+    const name = e.target.name.value;
+    const message = e.target.message.value;
+
+    // Send the email
+    emailjs.send('your_service_id', 'your_template_id', {
+      to_email: email,
+      from_name: name,
+      message: message
+    })
+      .then((response) => {
+        console.log('Email sent:', response);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+
+    // Clear the form
+    e.target.reset();
+  };
+
   return (
-    <div className=' my-5 container rounded' style={{backgroundColor: "rgb(80, 107, 142,0.9)",  }}>
+    <div className='my-5 container rounded' style={{ backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
       <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
-    <div className='container py-5'>
-        <div class="mb-3" >
-  <label for="exampleFormControlInput1" class="form-label" >Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" ></textarea>
-  <button type="button" class="btn btn-primary my-3 btn-lg">Send</button>
-  </div>
-  </div>
-</div>
+        <div className='container py-5'>
+          <form onSubmit={handleSubmit}>
+            <div className='mb-3'>
+              <label htmlFor='email' className='form-label'>
+                Email address or Name
+              </label>
+              <input type='email' className='form-control' id='email' name='email' />
+            </div>
+            <div className='mb-3'>
+              <label htmlFor='name' className='form-label'>
+                Name
+              </label>
+              <input type='text' className='form-control' id='name' name='name' />
+            </div>
+            <div className='mb-3'>
+              <label htmlFor='message' className='form-label'>
+                Message
+              </label>
+              <textarea className='form-control' id='message' name='message' rows='8' placeholder='Message'></textarea>
+            </div>
+            <button type='submit' className='btn btn-primary my-3 btn-lg'>
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

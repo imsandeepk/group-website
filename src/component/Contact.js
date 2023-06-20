@@ -7,7 +7,7 @@ export default function Contact() {
     <div className='my-5 container rounded' style={{ backgroundColor: 'rgb(80, 107, 142,0.9)' }}>
       <div className='py-5' style={{ display: 'flex', alignItems: 'center' }}>
         <div className='container py-5'>
-          <form onSubmit={handleSubmit}>
+          <form>
             <div className='mb-3'>
               <label htmlFor='email' className='form-label'>
                 Email address or Name

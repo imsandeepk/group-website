@@ -114,7 +114,7 @@ export default function Header() {
           </NavLink>
           <a
             className="nav-link mx-4 text-white"
-            href="https://scholar.google.co.uk/citations?user=ZprWaMkAAAAJ&hl=en"
+            href="https://scholar.google.co.uk/citations?hl=en&user=dpNRB8sAAAAJ"
           >
             Publications
           </a>
